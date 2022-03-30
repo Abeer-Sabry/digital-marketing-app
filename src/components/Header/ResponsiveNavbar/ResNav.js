@@ -26,7 +26,7 @@ const ResNav = () => {
           <ResList>
             <li>
               {" "}
-              <Link to="/">Home</Link>
+              <Link to="home">Home</Link>
             </li>
             <li>
               <Link to="about" smooth={true} duration={1000}>

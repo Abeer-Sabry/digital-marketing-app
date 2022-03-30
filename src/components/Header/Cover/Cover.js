@@ -11,7 +11,7 @@ import Marketing from "../../../imgs/Graphics.png";
 
 const Cover = () => {
   return (
-    <CoverContainer>
+    <CoverContainer id="home">
       <CustomContainer>
         <MainDiv>
           <Info>
