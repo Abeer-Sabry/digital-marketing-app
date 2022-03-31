@@ -11,7 +11,7 @@ export const FooterWrapper = styled.div`
   width: 100%;
   height: 100%;
   padding-top: 130px;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 `;
 export const Subscribe = styled.div`
   background-color: ${darkBlue};
