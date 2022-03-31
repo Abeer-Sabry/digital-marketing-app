@@ -18,6 +18,8 @@ export const SelectButton = styled.button`
 `;
 export const ShadowButton = styled(SelectButton)`
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+
+  /* Responsive */
   @media only screen and (max-width: 992px) {
     font-size: 12px;
   }
