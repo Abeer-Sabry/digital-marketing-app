@@ -17,7 +17,7 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 const Team = () => {
   return (
-    <MainWrapper>
+    <MainWrapper id="pages">
       <HeadingInfo>
         <OrangeSpan>Professional Team</OrangeSpan>
         <HeadTitle>Meet Our Leadership Team</HeadTitle>

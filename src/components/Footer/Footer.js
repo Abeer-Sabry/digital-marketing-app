@@ -29,7 +29,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <FooterWrapper>
+      <FooterWrapper id="contact">
         <CustomContainer>
           <Subscribe>
             <NewSletter>

@@ -42,11 +42,15 @@ const ResNav = () => {
               </Link>
             </li>
             <li>
-              <Link to="pages">Pages</Link>
+              <Link to="pages" smooth={true} duration={1000}>
+                Pages
+              </Link>
             </li>
             <li>
               {" "}
-              <Link to="contact">Contact</Link>
+              <Link to="contact" smooth={true} duration={1000}>
+                Contact
+              </Link>
             </li>
           </ResList>
         )}
