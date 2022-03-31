@@ -1,10 +1,12 @@
 import styled from "styled-components";
+// --- COLORS
 import { darkBlue, darkGray, lightBlue } from "../../../constants";
 
 export const NavWrapper = styled.div`
   background-color: ${lightBlue};
   padding: 20px 0;
   display: none;
+
   /* Responsive */
   @media only screen and (max-width: 992px) {
     display: block;

@@ -1,7 +1,7 @@
 import React from "react";
 // ---- CONSTANTS ---- //
 import { CustomContainer } from "../../constants";
-// ---- STYLED-COMPONENT ---- //
+// ---- STYLED-COMPONENTS ---- //
 import {
   CopyRight,
   Demo,
@@ -22,7 +22,6 @@ import { BsTwitter, BsInstagram, BsFillTelephoneFill, BsClockFill } from "react-
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { IoLocation } from "react-icons/io5";
-
 // ---- REACT-ROUTER-DOM ---- //
 import { Link } from "react-router-dom";
 

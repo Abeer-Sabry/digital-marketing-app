@@ -1,4 +1,5 @@
 import styled from "styled-components";
+// ---- COLORS ---- //
 import { orange } from "../../constants";
 
 export const HeadingInfo = styled.div`
@@ -8,6 +9,7 @@ export const HeadingInfo = styled.div`
     font-weight: 600;
     font-size: 40px;
   }
+  /* Responsive */
   @media only screen and (max-width: 616px) {
     h1 {
       font-size: 35px;
@@ -44,6 +46,7 @@ export const MainDiv = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 20px;
+  /* Responsive */
   @media only screen and (max-width: 801px) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

@@ -6,6 +6,8 @@ export const ImgContainer = styled.div`
   img {
     width: 100%;
   }
+
+  /* Responsive */
   @media only screen and (max-width: 801px) {
     text-align: center;
     img {
@@ -32,6 +34,8 @@ export const Info = styled.div`
   .content {
     font-size: 14px;
   }
+
+  /* Responsive */
   @media only screen and (max-width: 1194px) {
     .content {
       font-size: 13.5px;

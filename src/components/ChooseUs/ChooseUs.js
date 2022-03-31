@@ -1,7 +1,8 @@
 import React from "react";
-// ---- STYLED-COMPONENTS AND CUSTOM STYLING ---- //
-import { FlexDiv, MainWrapper } from "../../constants";
+// ---- STYLED-COMPONENTS  ---- //
 import { ContentWrapper, ImgContainer, RankingSection } from "./ChooseUsStyle";
+// ---- CONSTANTS ---- //
+import { FlexDiv, MainWrapper } from "../../constants";
 // ---- REUSABLE-COMPONENTS ---- //
 import { OrangeSpan } from "../../reusableComponents/OrangeSpan/OrangeSpan";
 import { HeadTitle } from "../../reusableComponents/HeadTitle/HeadTitle";

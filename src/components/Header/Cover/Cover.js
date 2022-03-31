@@ -1,6 +1,7 @@
 import React from "react";
-// ---- STYLED-COMPONENTS AND CUSTOM STYLES ---- //
+// ---- STYLED-COMPONENTS  ---- //
 import { CoverContainer, ImgContainer, Info, MainDiv } from "./CoverStyle";
+// ---- CONSTANTS  ---- //
 import { CustomContainer } from "../../../constants";
 // ---- REUSABLE-COMPONENTS ---- //
 import { HeadTitle } from "../../../reusableComponents/HeadTitle/HeadTitle";

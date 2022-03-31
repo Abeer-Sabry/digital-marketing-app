@@ -5,6 +5,7 @@ import { MainContent, SubContent, Wrapper } from "./ItemStyle";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 
 const Item = ({ title, content }) => {
+  // STATE
   const [toggle, setToggle] = useState(false);
   return (
     <Wrapper>

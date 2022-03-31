@@ -18,6 +18,8 @@ export const MainDiv = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 70px 0;
+
+  /* Responsive */
   @media only screen and (max-width: 801px) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -106,6 +108,7 @@ export const Info = styled.div`
   }
 `;
 export const ImgContainer = styled.div`
+  /* Responsive */
   @media only screen and (max-width: 801px) {
     text-align: center;
     img {

@@ -1,9 +1,11 @@
 import React from "react";
-// ---- STYLED-COMPONENTS AND CUSTOM STYLING ---- //
+// ---- CONSTANTS ---- //
 import { FlexDiv, MainWrapper } from "../../constants";
+// ---- STYLED-COMPONENTS ---- //
 import { ImgContainer, Info } from "./AboutUsStyle";
 // ---- IMG ---- //
 import illustration from "../../imgs/Illustration.png";
+// ---- REUSABLE-COMPONENTS  ---- //
 import { OrangeSpan } from "../../reusableComponents/OrangeSpan/OrangeSpan";
 import { HeadTitle } from "../../reusableComponents/HeadTitle/HeadTitle";
 import Button from "../../reusableComponents/SelectButton/SelectButton";

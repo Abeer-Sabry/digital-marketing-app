@@ -21,6 +21,8 @@ export const Subscribe = styled.div`
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
   align-items: center;
+
+  /* Responsive */
   @media only screen and (max-width: 781px) {
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
@@ -93,6 +95,7 @@ export const FooterForm = styled.form`
     padding: 17px;
     border-radius: 3px;
     border: none;
+    /* Responsive */
     @media only screen and (max-width: 1220px) {
       width: 80%;
     }
@@ -113,6 +116,7 @@ export const FooterForm = styled.form`
     right: 0;
     transform: translate(-20%, -50%);
   }
+  /* Responsive */
   @media only screen and (max-width: 781px) {
     text-align: center;
     button {
@@ -168,6 +172,7 @@ export const Demo = styled.div`
       }
     }
   }
+  /* Responsive */
   @media only screen and (max-width: 983px) {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
@@ -210,6 +215,7 @@ export const CopyRight = styled.div`
   text-align: center;
   color: white;
   font-size: 13px;
+  /* Responsive */
   @media only screen and (max-width: 470px) {
     font-size: 11px;
   }

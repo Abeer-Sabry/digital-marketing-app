@@ -1,7 +1,8 @@
 import React from "react";
-// ----  STYLED-COMPONENTS AND CUSTOM STYLING ---- //
-import { MainWrapper } from "../../constants";
+// ----  STYLED-COMPONENTS  ---- //
 import { MainDiv, Heading } from "./ServicesStyle";
+// ----  CONSTANTS ---- //
+import { MainWrapper } from "../../constants";
 // ---- REUSABLE-COMPONENTS ---- //
 import Card from "../../reusableComponents/Card/Card";
 import { OrangeSpan } from "../../reusableComponents/OrangeSpan/OrangeSpan";

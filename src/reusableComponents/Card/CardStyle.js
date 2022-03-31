@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { darkBlue, darkGray, orange } from "../../constants";
 // ---- IMGS ---- //
 import rectangle from "../../imgs/Rectangle 506.png";
+
 export const CardWrapper = styled.div`
   background-color: white;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
@@ -84,6 +85,7 @@ export const CardContent = styled.div`
     color: ${darkGray};
     font-size: 13.5px;
   }
+  /* Responsive */
   @media only screen and (max-width: 1122px) {
     p {
       font-size: 13px;

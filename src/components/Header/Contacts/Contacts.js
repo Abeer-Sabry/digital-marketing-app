@@ -1,6 +1,7 @@
 import React from "react";
-// --- STYLED COMPONENTS AND CUSTOM STYLES --- //
+// --- STYLED COMPONENTS  --- //
 import { Contact, ContactWrapper, Info, MainDiv, Social, Title } from "./StyledContacts";
+// --- CONSTANTS --- //
 import { CustomContainer } from "../../../constants";
 // --- ICONS --- //
 import { BsFillTelephoneFill, BsTwitter, BsInstagram } from "react-icons/bs";

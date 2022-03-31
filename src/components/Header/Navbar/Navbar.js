@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-// ---- COMPONENTS ---- //
+// ---- REUSABLE-COMPONENTS ---- //
 import { SelectButton } from "../../../reusableComponents/SelectButton/SelectButtonStyle";
-// ---- STYLED COMPONENTS AND CUSTOM STYLING ---- //
+// ---- STYLED COMPONENTS  ---- //
 import { List, MainDiv, NavContainer } from "./NavbarStyle";
+// ---- CONSTANTS  ---- //
 import { CustomContainer } from "../../../constants";
 // ---- IMG ----//
 import logo from "../../../imgs/Logo.png";

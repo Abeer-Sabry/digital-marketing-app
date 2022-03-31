@@ -4,6 +4,8 @@ export const MainDiv = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+
+  /* Responsive */
   @media only screen and (max-width: 991px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -25,6 +27,8 @@ export const Heading = styled.div`
   h1 {
     font-weight: 600;
   }
+
+  /* Responsive */
   @media only screen and (max-width: 494px) {
     h1 {
       font-size: 25px;

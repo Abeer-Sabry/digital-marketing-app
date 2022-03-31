@@ -11,7 +11,6 @@ const Card = props => {
       <CardContent>
         <h3>{props.title}</h3>
         <p>{props.paragraph}</p>
-        {/* {props.children} */}
       </CardContent>
     </CardWrapper>
   );

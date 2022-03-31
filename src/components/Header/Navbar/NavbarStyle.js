@@ -11,6 +11,7 @@ export const NavContainer = styled.div`
   padding: 20px 0;
   z-index: 99999;
   transition: ease 0.5s;
+
   /* Responsive */
   @media only screen and (max-width: 992px) {
     display: none;

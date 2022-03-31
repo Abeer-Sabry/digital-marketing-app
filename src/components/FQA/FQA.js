@@ -9,6 +9,7 @@ import { OrangeSpan } from "../../reusableComponents/OrangeSpan/OrangeSpan";
 import { HeadTitle } from "../../reusableComponents/HeadTitle/HeadTitle";
 // --- data --- //
 import { data } from "./data";
+// Component
 import Item from "./Item/Item";
 
 const FQA = () => {
